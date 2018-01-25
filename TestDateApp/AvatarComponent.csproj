@@ -103,7 +103,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="avatar.html" />
+    <Content Include="Web\avatar.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -112,7 +112,7 @@
     <Content Include="Content\main.css" />
     <Content Include="Content\ui-bootstrap-csp.css" />
     <Content Include="Content\widget.css" />
-    <Content Include="Controllers\controller.js" />
+    <Content Include="Web\controller.js" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -912,7 +912,7 @@
     <Content Include="Scripts\jquery-3.2.1.min.js" />
     <Content Include="Scripts\jquery-3.2.1.slim.js" />
     <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
-    <Content Include="index.html" />
+    <Content Include="Web\index.html" />
     <Content Include="Scripts\king-common.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\version.json" />
@@ -939,6 +939,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

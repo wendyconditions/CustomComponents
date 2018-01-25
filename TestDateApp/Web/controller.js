@@ -3,7 +3,7 @@
 
     angular.module('myApp', ['ui.bootstrap'])
         .controller('AppCtrl', function ($scope) {
-            /////
+            //////////
 
             $scope.roles = {
                 "CustomerID": 0,
