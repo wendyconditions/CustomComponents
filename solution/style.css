@@ -1,0 +1,57 @@
+/* Styles go here */
+    div {
+        display: block;
+    }
+
+    section > .widget > .widget-content {
+        height: calc(100% - 35px);
+        overflow: auto;
+    }
+
+    .detail-card {
+        /*box-shadow: 0 2px 8px rgba(0,0,0,0.1);*/
+        -webkit-box-shadow: 3px 4px 1px 0px rgba(238,238,238,0.5);
+        -moz-box-shadow: 3px 4px 1px 0px rgba(238,238,238,0.5);
+        box-shadow: 3px 4px 1px 0px rgba(238,238,238,0.5);
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #e3e3e3;
+        margin: 24px;
+    }
+    
+    .avatar-role {
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    .avatar-container {
+        display: inline-flex;
+        flex-direction: column;
+        width: 125px;
+        min-height: 175px;
+        padding: 20px;
+        border: 1px solid #e3e3e3;
+        margin: 15px;
+    }
+
+    .avatar .avatar-avatar {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 51px;
+        color: #fff;
+        background-color: darkgrey;
+        border-radius: 50%;
+        text-align: center;
+        /*border: 1px solid #e3e3e3;*/
+    }
+    
+    .avatar{
+      text-align: center;
+        flex: 1;
+    }
+    
+    .avatar-details {
+      text-align: center;
+      flex: 2;
+    }
